@@ -1,0 +1,19 @@
+Step 1: define function(request) with name of page (like page_name()) in views.py which means creating one page like empty page.
+    
+    In page_name(request), returns http.HttpResponse('<h1>...</h1>') where html basic tags to implement.
+    
+    >> add path configuration of page in urlpatterns in urls.py
+        ## urlpatterns=[path('page_name/',views.page_name)
+    
+    Therefore, then it will test default setup by django is runing fine or not.
+
+Step 2: Now, create poper html pages 
+
+    For that, we have to create templates/app_name folder the we use this folder for html files.
+    For Styles sheets like css, we have to create static/app_name folder then we can use it store css files.
+
+    Then be carefull at the time of linkng files.
+
+    Therefore, we got styled html pages.
+
+Step 3: Now adding Database to it.
