@@ -10,6 +10,9 @@ Step 1: define function(request) with name of page (like page_name()) in views.p
 Step 2: Now, create poper html pages 
 
     For that, we have to create templates/app_name folder the we use this folder for html files.
+	Include bootstrap basics to html file. Ref:https://getbootstrap.com/docs/4.4/getting-started/introduction/
+	
+
     For Styles sheets like css, we have to create static/app_name folder then we can use it store css files.
 
     Then be carefull at the time of linkng files.
